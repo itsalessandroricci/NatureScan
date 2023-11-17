@@ -18,6 +18,7 @@
 		B4DB84A12B06231400CA97C5 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB84A02B06231400CA97C5 /* ImagePicker.swift */; };
 		B4DB84A32B062A6100CA97C5 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB84A22B062A6100CA97C5 /* Classifier.swift */; };
 		B4DB84AA2B068AA900CA97C5 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB84A92B068AA900CA97C5 /* ImageClassifier.swift */; };
+		B4DB84B22B07CD4B00CA97C5 /* NatureScanML.mlmodel in Sources */ = {isa = PBXBuildFile; fileRef = B4DB84B12B07CD4B00CA97C5 /* NatureScanML.mlmodel */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +34,7 @@
 		B4DB84A02B06231400CA97C5 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		B4DB84A22B062A6100CA97C5 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
 		B4DB84A92B068AA900CA97C5 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+		B4DB84B12B07CD4B00CA97C5 /* NatureScanML.mlmodel */ = {isa = PBXFileReference; lastKnownFileType = file.mlmodel; path = NatureScanML.mlmodel; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -100,6 +102,7 @@
 				B4DB84A02B06231400CA97C5 /* ImagePicker.swift */,
 				B4DB84A22B062A6100CA97C5 /* Classifier.swift */,
 				B4DB84A92B068AA900CA97C5 /* ImageClassifier.swift */,
+				B4DB84B12B07CD4B00CA97C5 /* NatureScanML.mlmodel */,
 			);
 			path = "ML Files";
 			sourceTree = "<group>";
@@ -183,6 +186,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				B42F8C182B04F9340037994E /* DataSet.swift in Sources */,
+				B4DB84B22B07CD4B00CA97C5 /* NatureScanML.mlmodel in Sources */,
 				B4DB84A32B062A6100CA97C5 /* Classifier.swift in Sources */,
 				B4DB84AA2B068AA900CA97C5 /* ImageClassifier.swift in Sources */,
 				B42F8C1B2B04F96B0037994E /* TabBarView.swift in Sources */,
