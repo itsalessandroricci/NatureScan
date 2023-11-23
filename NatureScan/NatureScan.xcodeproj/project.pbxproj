@@ -14,7 +14,9 @@
 		B42F8C1B2B04F96B0037994E /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F8C1A2B04F96B0037994E /* TabBarView.swift */; };
 		B42F8C1D2B04FA400037994E /* MyObservationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F8C1C2B04FA400037994E /* MyObservationsView.swift */; };
 		B42F8C1F2B04FAC40037994E /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F8C1E2B04FAC40037994E /* ScanView.swift */; };
-		B42F8C232B04FB890037994E /* FavouritesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F8C222B04FB890037994E /* FavouritesView.swift */; };
+		B47849262B0E5D2F00B7B4BA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47849252B0E5D2F00B7B4BA /* ViewModel.swift */; };
+		B47F8EF92B0C32290061435E /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F8EF82B0C32290061435E /* AboutView.swift */; };
+		B47F8EFB2B0C4AD90061435E /* AllSpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F8EFA2B0C4AD90061435E /* AllSpeciesView.swift */; };
 		B4DB84A12B06231400CA97C5 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB84A02B06231400CA97C5 /* ImagePicker.swift */; };
 		B4DB84A32B062A6100CA97C5 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB84A22B062A6100CA97C5 /* Classifier.swift */; };
 		B4DB84AA2B068AA900CA97C5 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB84A92B068AA900CA97C5 /* ImageClassifier.swift */; };
@@ -30,7 +32,9 @@
 		B42F8C1A2B04F96B0037994E /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
 		B42F8C1C2B04FA400037994E /* MyObservationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyObservationsView.swift; sourceTree = "<group>"; };
 		B42F8C1E2B04FAC40037994E /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
-		B42F8C222B04FB890037994E /* FavouritesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FavouritesView.swift; sourceTree = "<group>"; };
+		B47849252B0E5D2F00B7B4BA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B47F8EF82B0C32290061435E /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		B47F8EFA2B0C4AD90061435E /* AllSpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSpeciesView.swift; sourceTree = "<group>"; };
 		B4DB84A02B06231400CA97C5 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
 		B4DB84A22B062A6100CA97C5 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
 		B4DB84A92B068AA900CA97C5 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
@@ -90,8 +94,9 @@
 			children = (
 				B42F8C1A2B04F96B0037994E /* TabBarView.swift */,
 				B42F8C1C2B04FA400037994E /* MyObservationsView.swift */,
+				B47F8EF82B0C32290061435E /* AboutView.swift */,
 				B42F8C1E2B04FAC40037994E /* ScanView.swift */,
-				B42F8C222B04FB890037994E /* FavouritesView.swift */,
+				B47F8EFA2B0C4AD90061435E /* AllSpeciesView.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -111,6 +116,7 @@
 			isa = PBXGroup;
 			children = (
 				B42F8C172B04F9340037994E /* DataSet.swift */,
+				B47849252B0E5D2F00B7B4BA /* ViewModel.swift */,
 			);
 			path = "Data Set";
 			sourceTree = "<group>";
@@ -187,12 +193,14 @@
 			files = (
 				B42F8C182B04F9340037994E /* DataSet.swift in Sources */,
 				B4DB84B22B07CD4B00CA97C5 /* NatureScanML.mlmodel in Sources */,
+				B47F8EF92B0C32290061435E /* AboutView.swift in Sources */,
 				B4DB84A32B062A6100CA97C5 /* Classifier.swift in Sources */,
 				B4DB84AA2B068AA900CA97C5 /* ImageClassifier.swift in Sources */,
 				B42F8C1B2B04F96B0037994E /* TabBarView.swift in Sources */,
+				B47F8EFB2B0C4AD90061435E /* AllSpeciesView.swift in Sources */,
 				B42F8C1F2B04FAC40037994E /* ScanView.swift in Sources */,
+				B47849262B0E5D2F00B7B4BA /* ViewModel.swift in Sources */,
 				B42F8C0A2B04CCA80037994E /* NatureScanApp.swift in Sources */,
-				B42F8C232B04FB890037994E /* FavouritesView.swift in Sources */,
 				B4DB84A12B06231400CA97C5 /* ImagePicker.swift in Sources */,
 				B42F8C1D2B04FA400037994E /* MyObservationsView.swift in Sources */,
 			);
@@ -335,6 +343,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take photo";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow to record video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow to acces the library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
@@ -372,6 +381,7 @@
 				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
 				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take photo";
 				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow to record video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow to acces the library";
 				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
 				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
 				INFOPLIST_KEY_UILaunchScreen_Generation = YES;

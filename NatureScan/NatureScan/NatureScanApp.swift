@@ -9,9 +9,13 @@ import SwiftUI
 
 @main
 struct NatureScanApp: App {
+    
+    var isdetectedviewmodel = IsDetectedViewModel()
+    
     var body: some Scene {
         WindowGroup {
            TabBarView()
         }
+        .environment(isdetectedviewmodel)
     }
 }

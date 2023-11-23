@@ -12,19 +12,20 @@ struct TabBarView: View {
         
         TabView{
             
-    MyObservationsView()
-        .tabItem {
-            Label("My Observations", systemImage: "magnifyingglass")
+            MyObservationsView()
+                .tabItem {
+                    Label("My Observations", systemImage: "magnifyingglass")
                 }
-    ScanView(classifier: ImageClassifier())
-        .tabItem{
+            ScanView(classifier: ImageClassifier())
+                .tabItem{
                     
-            Label("Scan", systemImage: "camera")
+                    Label("Scan", systemImage: "camera")
                 }
-    FavouritesView()
-        .tabItem{
+           
+            AllSpeciesView()
+                .tabItem{
                     
-            Label("Favourites", systemImage: "heart")
+                    Label("All Species", systemImage: "camera.macro")
                 }
             
         }
@@ -33,4 +34,5 @@ struct TabBarView: View {
 
 #Preview {
     TabBarView()
+        .environment(IsDetectedViewModel())
 }

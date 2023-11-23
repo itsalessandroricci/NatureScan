@@ -11,7 +11,7 @@ import CoreLocation
 
 @Observable
 
-class IsDetectedViewModel{
+class IsDetectedViewModel: ObservableObject{
     
     var cardsNature: [Card] =
 
@@ -56,3 +56,6 @@ class IsDetectedViewModel{
     ]
 
 }
+
+
+var sharedIsDetectedViewModel = IsDetectedViewModel()

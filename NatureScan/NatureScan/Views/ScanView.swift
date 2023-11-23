@@ -7,94 +7,92 @@
 
 
 import SwiftUI
-
 struct ScanView: View {
     
     @State var isPresenting: Bool = false
     @State var uiImage: UIImage?
     @State var sourceType: UIImagePickerController.SourceType = .photoLibrary
     @ObservedObject var classifier: ImageClassifier
-        
-        var body: some View {
-            VStack{
-                Rectangle()
-                    .strokeBorder()
-                    .foregroundColor(.blue)
-                    .overlay(
-                        Group {
-                            if uiImage != nil {
-                                Image(uiImage: uiImage!)
-                                    .resizable()
-                                    .scaledToFit()
-                            }
-                        }
-                    )
-                
-                
-                VStack{
-                    Button(action: {
-                        if uiImage != nil {
-                            classifier.detect(uiImage: uiImage!)
-                        }
-                    }) {
-                        Image(systemName: "")
-                            .foregroundColor(.blue)
-                            .font(.title)
-                    }
-                    
-                    
-                    Group {
-                        if let imageClass = classifier.imageClass {
-                            HStack{
-                                Text("Image categories:")
-                                    .font(.caption)
-                                Text(imageClass)
-                                    .bold()
-                            }
-                        } else {
-                            HStack{
-                                Text("Image categories: NA")
-                                    .font(.caption)
-                            }
-                        }
-                    }
-                    .font(.subheadline)
-                    .padding()
-                    
-                }
-                HStack{
-                    Image(systemName: "photo")
-                        .onTapGesture {
-                            isPresenting = true
-                            sourceType = .photoLibrary
-                        }
-                    
-                    Image(systemName: "camera")
-                        .onTapGesture {
-                            isPresenting = true
-                            sourceType = .camera
-                        }
-                }
-                .font(.title)
+    
+    var body: some View {
+        VStack{
+            Rectangle()
+                .strokeBorder()
                 .foregroundColor(.blue)
-            }
-            
-            .sheet(isPresented: $isPresenting){
-                ImagePicker(uiImage: $uiImage, isPresenting:  $isPresenting, sourceType: $sourceType)
-                    .onDisappear{
+                .overlay(
+                    Group {
                         if uiImage != nil {
-                            classifier.detect(uiImage: uiImage!)
+                            Image(uiImage: uiImage!)
+                                .resizable()
+                                .scaledToFit()
                         }
                     }
+                )
+            
+            
+            VStack{
+                Button(action: {
+                    if uiImage != nil {
+                        classifier.detect(uiImage: uiImage!)
+                    }
+                }) {
+                    Image(systemName: "")
+                        .foregroundColor(.blue)
+                        .font(.title)
+                }
+                
+                
+                Group {
+                    if let imageClass = classifier.imageClass {
+                        HStack{
+                            Text("Image categories:")
+                                .font(.caption)
+                            Text(imageClass)
+                                .bold()
+                        }
+                    } else {
+                        HStack{
+                            Text("Image categories: NA")
+                                .font(.caption)
+                        }
+                    }
+                }
+                .font(.subheadline)
+                .padding()
                 
             }
-            
-            .padding()
+            HStack{
+                Image(systemName: "photo")
+                    .onTapGesture {
+                        isPresenting = true
+                        sourceType = .photoLibrary
+                    }
+                
+                Image(systemName: "camera")
+                    .onTapGesture {
+                        isPresenting = true
+                        sourceType = .camera
+                    }
+            }
+            .font(.title)
+            .foregroundColor(.blue)
         }
+        
+        .sheet(isPresented: $isPresenting){
+            ImagePicker(uiImage: $uiImage, isPresenting:  $isPresenting, sourceType: $sourceType)
+                .onDisappear{
+                    if uiImage != nil {
+                        classifier.detect(uiImage: uiImage!)
+                    }
+                }
+            
+        }
+        
+        .padding()
     }
+}
 
-
-    struct ScanView_Previews: PreviewProvider {
+struct ScanView_Previews: PreviewProvider {
         static var previews: some View {
             ScanView(classifier: ImageClassifier())
         }

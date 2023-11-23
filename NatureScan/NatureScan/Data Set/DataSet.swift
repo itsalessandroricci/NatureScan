@@ -6,3 +6,27 @@
 //
 
 import Foundation
+import MapKit
+
+
+struct Card: Identifiable
+{
+    var id: UUID = UUID()
+    var name: String
+    var scientificName: String
+    var image: String
+    var about: String
+    var locations: [Location] = []
+    var isDetected: Bool = false
+    
+    
+}
+
+struct Location: Identifiable
+{
+    let id: UUID = UUID()
+    let name: String
+    let coordinate: CLLocationCoordinate2D
+    
+}
+
