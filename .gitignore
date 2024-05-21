@@ -98,3 +98,4 @@ iOSInjectionProject/
 .swiftpm/configuration/registries.json
 .swiftpm/xcode/package.xcworkspace/contents.xcworkspacedata
 .netrc
+NatureScan/NatureScan/ML Files/NatureScanML.mlpackage/Data/com.apple.CoreML/NatureScanML.mlmodel

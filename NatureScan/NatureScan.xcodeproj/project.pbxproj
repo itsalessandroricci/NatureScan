@@ -1,0 +1,435 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B42F8C0A2B04CCA80037994E /* NatureScanApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F8C092B04CCA80037994E /* NatureScanApp.swift */; };
+		B42F8C0E2B04CCA90037994E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42F8C0D2B04CCA90037994E /* Assets.xcassets */; };
+		B42F8C112B04CCA90037994E /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B42F8C102B04CCA90037994E /* Preview Assets.xcassets */; };
+		B42F8C182B04F9340037994E /* DataSet.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F8C172B04F9340037994E /* DataSet.swift */; };
+		B42F8C1B2B04F96B0037994E /* TabBarView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F8C1A2B04F96B0037994E /* TabBarView.swift */; };
+		B42F8C1D2B04FA400037994E /* MyObservationsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F8C1C2B04FA400037994E /* MyObservationsView.swift */; };
+		B42F8C1F2B04FAC40037994E /* ScanView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B42F8C1E2B04FAC40037994E /* ScanView.swift */; };
+		B4609ED92B63FC040022645D /* AleStorage.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4609ED82B63FC040022645D /* AleStorage.swift */; };
+		B4609EDB2B6465F40022645D /* NatureScanML.mlpackage in Sources */ = {isa = PBXBuildFile; fileRef = B4609EDA2B6465F40022645D /* NatureScanML.mlpackage */; };
+		B47849262B0E5D2F00B7B4BA /* ViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47849252B0E5D2F00B7B4BA /* ViewModel.swift */; };
+		B47F8EF92B0C32290061435E /* AboutView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F8EF82B0C32290061435E /* AboutView.swift */; };
+		B47F8EFB2B0C4AD90061435E /* AllSpeciesView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B47F8EFA2B0C4AD90061435E /* AllSpeciesView.swift */; };
+		B4DB84A12B06231400CA97C5 /* ImagePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB84A02B06231400CA97C5 /* ImagePicker.swift */; };
+		B4DB84A32B062A6100CA97C5 /* Classifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB84A22B062A6100CA97C5 /* Classifier.swift */; };
+		B4DB84AA2B068AA900CA97C5 /* ImageClassifier.swift in Sources */ = {isa = PBXBuildFile; fileRef = B4DB84A92B068AA900CA97C5 /* ImageClassifier.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		B42F8C062B04CCA80037994E /* NatureScan.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = NatureScan.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B42F8C092B04CCA80037994E /* NatureScanApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NatureScanApp.swift; sourceTree = "<group>"; };
+		B42F8C0D2B04CCA90037994E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B42F8C102B04CCA90037994E /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B42F8C172B04F9340037994E /* DataSet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DataSet.swift; sourceTree = "<group>"; };
+		B42F8C1A2B04F96B0037994E /* TabBarView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarView.swift; sourceTree = "<group>"; };
+		B42F8C1C2B04FA400037994E /* MyObservationsView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyObservationsView.swift; sourceTree = "<group>"; };
+		B42F8C1E2B04FAC40037994E /* ScanView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ScanView.swift; sourceTree = "<group>"; };
+		B4609ED82B63FC040022645D /* AleStorage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AleStorage.swift; sourceTree = "<group>"; };
+		B4609EDA2B6465F40022645D /* NatureScanML.mlpackage */ = {isa = PBXFileReference; lastKnownFileType = folder.mlpackage; path = NatureScanML.mlpackage; sourceTree = "<group>"; };
+		B47849252B0E5D2F00B7B4BA /* ViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewModel.swift; sourceTree = "<group>"; };
+		B47F8EF82B0C32290061435E /* AboutView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AboutView.swift; sourceTree = "<group>"; };
+		B47F8EFA2B0C4AD90061435E /* AllSpeciesView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AllSpeciesView.swift; sourceTree = "<group>"; };
+		B4DB84A02B06231400CA97C5 /* ImagePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImagePicker.swift; sourceTree = "<group>"; };
+		B4DB84A22B062A6100CA97C5 /* Classifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Classifier.swift; sourceTree = "<group>"; };
+		B4DB84A92B068AA900CA97C5 /* ImageClassifier.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageClassifier.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B42F8C032B04CCA80037994E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B42F8BFD2B04CCA80037994E = {
+			isa = PBXGroup;
+			children = (
+				B42F8C082B04CCA80037994E /* NatureScan */,
+				B42F8C072B04CCA80037994E /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		B42F8C072B04CCA80037994E /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B42F8C062B04CCA80037994E /* NatureScan.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B42F8C082B04CCA80037994E /* NatureScan */ = {
+			isa = PBXGroup;
+			children = (
+				B42F8C092B04CCA80037994E /* NatureScanApp.swift */,
+				B4DB84AC2B07732E00CA97C5 /* Data Set */,
+				B4DB84AB2B07730D00CA97C5 /* ML Files */,
+				B42F8C192B04F9460037994E /* Views */,
+				B42F8C0D2B04CCA90037994E /* Assets.xcassets */,
+				B42F8C0F2B04CCA90037994E /* Preview Content */,
+			);
+			path = NatureScan;
+			sourceTree = "<group>";
+		};
+		B42F8C0F2B04CCA90037994E /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B42F8C102B04CCA90037994E /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B42F8C192B04F9460037994E /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				B42F8C1A2B04F96B0037994E /* TabBarView.swift */,
+				B42F8C1C2B04FA400037994E /* MyObservationsView.swift */,
+				B47F8EF82B0C32290061435E /* AboutView.swift */,
+				B42F8C1E2B04FAC40037994E /* ScanView.swift */,
+				B47F8EFA2B0C4AD90061435E /* AllSpeciesView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		B4DB84AB2B07730D00CA97C5 /* ML Files */ = {
+			isa = PBXGroup;
+			children = (
+				B4DB84A02B06231400CA97C5 /* ImagePicker.swift */,
+				B4DB84A22B062A6100CA97C5 /* Classifier.swift */,
+				B4DB84A92B068AA900CA97C5 /* ImageClassifier.swift */,
+				B4609EDA2B6465F40022645D /* NatureScanML.mlpackage */,
+			);
+			path = "ML Files";
+			sourceTree = "<group>";
+		};
+		B4DB84AC2B07732E00CA97C5 /* Data Set */ = {
+			isa = PBXGroup;
+			children = (
+				B42F8C172B04F9340037994E /* DataSet.swift */,
+				B47849252B0E5D2F00B7B4BA /* ViewModel.swift */,
+				B4609ED82B63FC040022645D /* AleStorage.swift */,
+			);
+			path = "Data Set";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B42F8C052B04CCA80037994E /* NatureScan */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B42F8C142B04CCA90037994E /* Build configuration list for PBXNativeTarget "NatureScan" */;
+			buildPhases = (
+				B42F8C022B04CCA80037994E /* Sources */,
+				B42F8C032B04CCA80037994E /* Frameworks */,
+				B42F8C042B04CCA80037994E /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = NatureScan;
+			productName = NatureScan;
+			productReference = B42F8C062B04CCA80037994E /* NatureScan.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B42F8BFE2B04CCA80037994E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					B42F8C052B04CCA80037994E = {
+						CreatedOnToolsVersion = 15.0.1;
+					};
+				};
+			};
+			buildConfigurationList = B42F8C012B04CCA80037994E /* Build configuration list for PBXProject "NatureScan" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B42F8BFD2B04CCA80037994E;
+			productRefGroup = B42F8C072B04CCA80037994E /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B42F8C052B04CCA80037994E /* NatureScan */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B42F8C042B04CCA80037994E /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42F8C112B04CCA90037994E /* Preview Assets.xcassets in Resources */,
+				B42F8C0E2B04CCA90037994E /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B42F8C022B04CCA80037994E /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B42F8C182B04F9340037994E /* DataSet.swift in Sources */,
+				B47F8EF92B0C32290061435E /* AboutView.swift in Sources */,
+				B4DB84A32B062A6100CA97C5 /* Classifier.swift in Sources */,
+				B4609ED92B63FC040022645D /* AleStorage.swift in Sources */,
+				B4DB84AA2B068AA900CA97C5 /* ImageClassifier.swift in Sources */,
+				B42F8C1B2B04F96B0037994E /* TabBarView.swift in Sources */,
+				B47F8EFB2B0C4AD90061435E /* AllSpeciesView.swift in Sources */,
+				B4609EDB2B6465F40022645D /* NatureScanML.mlpackage in Sources */,
+				B42F8C1F2B04FAC40037994E /* ScanView.swift in Sources */,
+				B47849262B0E5D2F00B7B4BA /* ViewModel.swift in Sources */,
+				B42F8C0A2B04CCA80037994E /* NatureScanApp.swift in Sources */,
+				B4DB84A12B06231400CA97C5 /* ImagePicker.swift in Sources */,
+				B42F8C1D2B04FA400037994E /* MyObservationsView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		B42F8C122B04CCA90037994E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		B42F8C132B04CCA90037994E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		B42F8C152B04CCA90037994E /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NatureScan/Preview Content\"";
+				DEVELOPMENT_TEAM = 4X56JBA2R7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NatureScan/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take photo";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow to record video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow to acces the library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsalessandroricci.NatureScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		B42F8C162B04CCA90037994E /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"NatureScan/Preview Content\"";
+				DEVELOPMENT_TEAM = 4X56JBA2R7;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = NatureScan/Info.plist;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.education";
+				INFOPLIST_KEY_NSCameraUsageDescription = "Please allow to take photo";
+				INFOPLIST_KEY_NSMicrophoneUsageDescription = "Please allow to record video";
+				INFOPLIST_KEY_NSPhotoLibraryUsageDescription = "Please allow to acces the library";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UIStatusBarStyle = "";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.itsalessandroricci.NatureScan;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B42F8C012B04CCA80037994E /* Build configuration list for PBXProject "NatureScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42F8C122B04CCA90037994E /* Debug */,
+				B42F8C132B04CCA90037994E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B42F8C142B04CCA90037994E /* Build configuration list for PBXNativeTarget "NatureScan" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B42F8C152B04CCA90037994E /* Debug */,
+				B42F8C162B04CCA90037994E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B42F8BFE2B04CCA80037994E /* Project object */;
+}
