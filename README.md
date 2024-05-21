@@ -2,6 +2,7 @@
 # NatureScan
 
 Welcome to **NatureScan**, an app designed for nature lovers. Using advanced machine learning, NatureScan identifies and classifies plants and animals from photos. Users can snap a picture to learn about species and explore detailed descriptions. The app works offline, making it perfect for mountain hikes.
+![NatureScan Banner](https://github.com/itsalessandroricci/NatureScan/assets/120020257/1e59a0e0-5385-4895-a207-e6456833e0dc)
 
 ![Static Badge](https://img.shields.io/badge/XCode_Version-15.0-green?style=flat&logo=xcode) ![Static Badge](https://img.shields.io/badge/Swift_Version-5.9-green?style=flat&logo=swift)
 
