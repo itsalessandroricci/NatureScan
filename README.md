@@ -12,6 +12,7 @@ Welcome to **NatureScan**, an app designed for nature lovers. Using advanced mac
 2. [Features](#features)
 3. [Purpose](#purpose)
 4. [Frameworks Used](#frameworks)
+5. [Credits](#credits)
 
 <a name="description"></a>
 ## Description
@@ -39,3 +40,12 @@ NatureScan was created to leverage various iOS development techniques and techno
 - **Vision:** For image processing and object recognition.
 - **CoreImage:** For image processing and enhancement.
 - **UIKit:** For custom user interface components that require more flexibility.
+
+  <a name="credits"></a>
+## Credits
+
+AstroArena is a personal project developed by:
+
+- Alessandro Ricci
+   **App Developer** (https://github.com/itsalessandroricci)
+
