@@ -44,7 +44,7 @@ NatureScan was created to leverage various iOS development techniques and techno
   <a name="credits"></a>
 ## Credits
 
-AstroArena is a personal project developed by:
+**NatureScan** is a personal project developed by:
 
 - Alessandro Ricci
    **App Developer** (https://github.com/itsalessandroricci)
