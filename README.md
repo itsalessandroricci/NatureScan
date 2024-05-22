@@ -48,4 +48,3 @@ NatureScan was created to leverage various iOS development techniques and techno
 
 - Alessandro Ricci
    **App Developer** (https://github.com/itsalessandroricci)
-
